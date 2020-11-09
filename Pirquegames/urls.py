@@ -19,7 +19,6 @@ from Pirquegames import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Saludo/', views.Saludo),
     path('index/', views.index),
     path('nintendo/', views.nintendo),
     path('PC/', views.pc),
